@@ -1,14 +1,77 @@
-
 /* share style start */
 
 @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Montserrat&family=Poppins:wght@400;500;600;700&family=Raleway&family=Saira+Condensed:wght@200;400;500;700&family=Spirax&family=Work+Sans:wght@200;400;500;600;700&display=swap');
 
-*{
+* {
     font-family: 'Work Sans', sans-serif;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
 /* share style end */
+
+/* Nav bar style start */
+
+.header-container {
+
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+
+
+}
+
+.nav-logo {
+    display: flex;
+    width: 50%;
+}
+
+.nav-logo img {
+    width: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.nav-logo p {
+    font-size: 2.8125rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+
+.text-g {
+    color: #FF42A5
+}
+
+.nav-item-container {
+    color: #4f353c;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-menu-bar a {
+    text-decoration: none;
+    color: #4f353c;
+    margin-right: 20px;
+
+}
+
+.nav-menu-logo {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 262px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+/* Nav bar style end */
