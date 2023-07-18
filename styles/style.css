@@ -1,0 +1,14 @@
+
+/* share style start */
+
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Montserrat&family=Poppins:wght@400;500;600;700&family=Raleway&family=Saira+Condensed:wght@200;400;500;700&family=Spirax&family=Work+Sans:wght@200;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* share style end */
