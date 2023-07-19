@@ -231,10 +231,6 @@
     height: 350px;
 }
 
-
-
-
-
 .btn-container-background {
     background: linear-gradient(90deg, rgba(248, 43, 149, 0.082) 0%, rgba(255, 66, 165, 0.03) 100%);
     width: 100%;
@@ -257,7 +253,6 @@
     padding-top: 100px;
 
 }
-
 
 .text {
     color: #0B0223;
@@ -352,7 +347,8 @@
 
 /* hover */
 .play-funny img:hover{
-   background-color: red;
+   background-color: rgb(2, 170, 2);
+   padding: 10px;
    z-index: 1;  
 }
 
