@@ -182,5 +182,43 @@
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
-   
+
+}
+
+/* Play game banner style start  */
+
+.play-game-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.play-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 290px;
+}
+
+.play-text {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-game-banner{
+    position: relative;
+}
+.play-game-banner-img{
+    position: absolute;
+    margin: -250px 525px;
+}
+.play-game-banner-img img{
+    width: 350px;
+    height: 350px;
 }
